@@ -1,4 +1,4 @@
-package clase_2;
+package clase_2.Ejercicios_clase_2;
 
 public class Informe_medico {
     public static void main(String[]args){

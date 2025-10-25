@@ -1,9 +1,9 @@
-package clase_3;
+package clase_3.Ejercicios_clase_3;
 
-public class EleccionMenuEjer2 {
+public class MenuV2 {
     public static void main(String[] args) {
 
-        int opcion = 6;
+        int opcion = 1;
 
         switch (opcion){
             case 1:
@@ -22,8 +22,9 @@ public class EleccionMenuEjer2 {
                 System.out.println("Usted eligio la opcion 5 (Empanadas de carne), desea confirmar su orden??");
                 break;
             default:
-            System.out.println("Opcion ingresada inexistente");
+                System.out.println("Opcion ingresada inexistente");
 
         }
     }
 }
+

@@ -1,6 +1,7 @@
-package clase_3;
+package clase_3.Ejercicios_clase_3;
 
-public class NotasEjerc1 {
+public class Notas
+{
     public static void main(String[] args) {
 
         int nota = 0;
