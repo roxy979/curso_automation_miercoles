@@ -24,4 +24,8 @@ public class Persona {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
+    public void saludar(){
+        System.out.println("Hola soy una persona");
+    }
 }

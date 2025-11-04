@@ -26,4 +26,9 @@ public class Alumno extends Persona {
     public void setPromedio(double promedio) {
         this.promedio = promedio;
     }
+
+    @Override
+    public void saludar() {
+        System.out.println("Hola, soy un alumno");
+    }
 }

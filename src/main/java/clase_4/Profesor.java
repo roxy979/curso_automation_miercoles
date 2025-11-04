@@ -2,12 +2,12 @@ package clase_4;
 
 public class Profesor extends Persona{
     private String curso;
-    private boolean ayudante;
+    //private boolean ayudante;
 
-    public Profesor(String apellido, String nombre, String curso, boolean ayudante) {
+    public Profesor(String apellido, String nombre, String curso/* boolean ayudante*/) {
         super(apellido, nombre);
         this.curso = curso;
-        this.ayudante = ayudante;
+       // this.ayudante = ayudante;
     }
 
     public String getCurso() {
@@ -17,12 +17,18 @@ public class Profesor extends Persona{
     public void setCurso(String curso) {
         this.curso = curso;
     }
-
+/*
     public boolean isAyudante() {
         return ayudante;
     }
 
     public void setAyudante(boolean ayudante) {
         this.ayudante = ayudante;
+
+ */
+
+    @Override
+    public void saludar(){
+        System.out.println("Hola, soy un profesor");
     }
 }

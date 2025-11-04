@@ -20,8 +20,8 @@ public class Datos_estudiante {
         System.out.println("Resumen: el alumno " + nombre + ' ' + apellido + ", nacido el " + fechaDeNacimiento + ", de edad " + edad + ", tiene un promedio de "+ promedioDeNotas);
 
         //uso del local date para manejar fechas
-          //LocalDate fechaDeNacimiento2 = LocalDate.of(Year: 1965, Month: 10, MonthDay: 5);
-         //System.out.println("Fecha usando localdate: " + fechaDeNacimiento2);
+          LocalDate fechaDeNacimiento2 = LocalDate.of(1965, 10, 5);
+         System.out.println("Fecha usando localdate: " + fechaDeNacimiento2);
     }
 
 }
