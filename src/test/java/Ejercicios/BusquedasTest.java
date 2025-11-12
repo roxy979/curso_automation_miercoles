@@ -51,11 +51,5 @@ public class BusquedasTest {
         WebElement titleSearchEl = driver.findElement(titleSearch);
 
         Assert.assertEquals("Search - iphone", titleSearchEl.getText(),"Los titulos no conciden");
-
-
-
-
-
-
     }
 }
